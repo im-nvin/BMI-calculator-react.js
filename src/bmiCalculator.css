@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bmi-calc {
+    height: 100vh;
+    background-color: rgb(247, 199, 136);
+    display: grid;
+    place-items: center;
+}
+
+.main {
+    box-shadow: 2px 10px 14px 1px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 2px 10px 14px 1px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 2px 10px 14px 1px rgba(0, 0, 0, 0.53);
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px 10px;
+    font-family: 500;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+span{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    
+}
